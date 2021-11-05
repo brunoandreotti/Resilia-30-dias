@@ -4,6 +4,16 @@
 
 <img src="./readme/Dia1.jpg" alt="gif-readme" width="500px">
 
+<br>
+
 ## Dia 2 (Treino FlexBox Zombies)
 
+<img src="./readme/Dia2.png" alt="gif-readme" width="500px">
+
+<br>
+
 ## Dia 3 (Consultor de CEP)
+
+<img src="./readme/Dia3.jpg" alt="gif-readme" width="500px">
+
+<br>
