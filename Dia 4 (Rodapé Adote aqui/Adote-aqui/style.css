@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(243, 243, 243);
+}
+
+#header {
+  width: 100vw;
+  height: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+}
+
+#logo > a {
+  color: #efdb23;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#logo > a:hover {
+  font-size: 25px;
+}
+
+nav {
+  display: flex;
+  height: 100%;
+  width: 19rem;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #eada4d;
+  z-index: 99;
+}
+
+.button {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+  padding: 5px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  color: orangered;
+}
+
+#main {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+#cards {
+  width: 1600px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 25rem;
+  width: 18.75rem;
+  margin: 2rem;
+  padding: 1.5rem 0;
+  border: 1px solid lightgray;
+  background-color: rgb(236, 236, 236);
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid rgb(126, 124, 124);
+  border-radius: 8px;
+}
+
+.adote-button {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgb(44, 44, 44);
+  color: #eada4d;
+  font-weight: 800;
+  border: solid 1px rgb(44, 44, 44);
+  transition: 0.3s;
+}
+
+.adote-button:hover {
+  font-size: 18px;
+}
+
+footer {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+  color: #eada4d;
+}
+
+#face {
+  list-style-image: url(./img/icons8-facebook-20.png);
+  
+}
+
+#face > a {
+  color: #eada4d;
+}
+
+#insta {
+  list-style-image: url(./img/icons8-instagram-20.png);
+}
+
+#insta > a {
+  color: #eada4d;
+}
+
+@media (max-width: 730px) {
+  #header {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  nav {
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #cards {
+    margin-top: 70px;
+    flex-direction: column;
+  }
+}
