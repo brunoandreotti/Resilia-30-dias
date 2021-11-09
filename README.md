@@ -17,3 +17,21 @@
 <img src="./readme/Dia3.jpg" alt="gif-readme" width="500px">
 
 <br>
+
+## Dia 4 (Rodapé AdoteAqui)
+
+<img src="./readme/Dia4.jpg" alt="gif-readme" width="500px">
+
+<br>
+
+## Dia 5 (Estudo JS)
+
+<img src="./readme/Dia5.jpg" alt="gif-readme" width="500px">
+
+<br>
+
+## Dia 6 (Estudo JS)
+
+<img src="./readme/Dia6.jpg" alt="gif-readme" width="500px">
+
+<br>
