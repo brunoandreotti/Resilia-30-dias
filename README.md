@@ -35,3 +35,9 @@
 <img src="./readme/Dia6.jpg" alt="gif-readme" width="500px">
 
 <br>
+
+## Dia 7 (Estudo JS)
+
+<img src="./readme/Dia7.jpg" alt="gif-readme" width="500px">
+
+<br>
